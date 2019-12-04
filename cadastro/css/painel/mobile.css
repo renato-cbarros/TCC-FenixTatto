@@ -1,0 +1,132 @@
+  *, *:before, *:after{	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:rgba(225, 225, 225, 1);
+	height:100%;
+	width:100%;	
+	color:#161616;
+	font-family:arial;
+}
+
+a, li, ul{
+	list-style:none;
+	text-decoration:none;
+	color:#161616;
+}
+
+		/*					*/
+#dados, #dados_endereco, #dados_telefone, #dados_senha{
+	width:95%;
+	padding:30px 0;	
+	background-color:rgba(210, 210, 210, 1);
+}		
+	
+#dados{
+	margin-top:80px;
+	margin-left:2.5%;
+}
+
+#dados_endereco, #dados_telefone, #dados_senha{
+	margin-top:20px;
+	margin-left:2.5%;
+}
+
+#dados_telefone{
+	margin-bottom:20px;
+}
+	
+	legend{
+		font-family:verdana;
+		font-weight:bold;
+		font-size:1.2em;
+		color:#f47014;
+		margin-bottom:30px;
+		margin-left:5%;
+	}
+	
+	.informacoes{
+		font-family:arial;
+		font-weight:bold;
+		font-size:1em;
+		margin-left:5%;
+	}
+	
+	.input{
+		width:90%;
+		margin:0 5% 10px 5%;
+		line-height:2em;
+		font-size:1em;
+		font-weight:lighter;
+	}
+		#input_sexo_m{
+			margin-left:5%;
+		}
+	
+	#senha, #confirma_senha{
+		margin-bottom:1px;
+	}
+	
+	#informacao_confirma_senha{
+		margin-top:8px;
+	}
+	
+		#mostra_senha, #esconde_senha, #mostra_confirma_senha, #esconde_confirma_senha{
+			margin-left:5%;
+			font-size:0.93em;
+			font-weight:lighter;
+			font-family:arial;
+			opacity:0.7;
+			color:#161616;
+			line-height:1em;
+			cursor:pointer;
+			display:inline;
+			transition-duration:0.2s;
+			-webkit-transition-duration:0.2s;
+			-moz-transition-duration:0.2s;
+		}
+		
+		#esconde_senha, #esconde_confirma_senha{
+			font-size:0.94em;
+			display:none;
+			color:rgba(220, 10, 10, 1);
+		}
+		
+	#ddd{
+		width:20%;
+	}
+	
+	#telefone, #celular{
+		float:right;
+		width:69%;
+		margin-top:-2.6em;
+	}
+	
+	.acao{
+			font-family:verdana;
+			font-size:1em;
+			color:rgba(255, 255, 255, 1);
+			padding:15px 0;
+			background-color:rgba(0, 120, 0, 1);
+			cursor:pointer;
+			margin-top:25px;
+			border:2px solid rgba(0, 170, 0, 0);
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			 .acao:hover, .acao:active{
+				border:2px solid #F47014;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}

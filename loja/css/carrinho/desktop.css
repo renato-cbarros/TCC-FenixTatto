@@ -1,0 +1,235 @@
+ *, *:before, *:after{	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:#e1e1e1;
+	height:100%;
+	width:100%;	
+	color:#161616;
+	font-family:arial;
+}
+
+a, li, ul{
+	list-style:none;
+	text-decoration:none;
+	color:white;
+}
+
+
+/*			Tabelas			*/	
+#produto{
+	width:98%;
+	margin:0 1%;
+	border-spacing:0;
+}	
+
+#titulo{
+	background-color:#161616;
+}
+
+.caracteristicas_produto, .titulo{
+	text-align:center;
+	font-family:arial;
+}
+
+.caracteristicas_produto{
+	color:#161616;
+	padding:5px 0;
+	background-color:#e1e1e1;
+}
+
+.titulo{
+	color:#e1e1e1;
+	font-weight:bold;
+	font-size:1.3em;
+	padding:20px 0;
+	
+}
+
+	.foto_produto{
+		width:210px;
+		text-align:left;
+		border:1px solid #161616;
+		border-top:none;
+		border-right:none;
+	}
+	
+		.imagem{
+			opacity:0.85;
+			margin:0 5px;
+			width:210px;
+			height:210px;
+			vertical-align:-150px;
+			border:5px solid rgba(63, 63, 63, 0);
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			.imagem:hover{
+				opacity:1;
+				border:5px solid rgba(63, 63, 63, 1);
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+
+	.nome_produto{
+		text-align:left;
+		border:1px solid #161616;
+		margin-left:210px;
+		border-top:none;
+		border-left:none;
+		padding:0 5px;
+	}
+		.nome_produto #nome_produto{
+			font-size:1.3em;
+			font-weight:bold;
+			color:#F47014;
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			.nome_produto #nome_produto:hover{
+				color:rgba(0, 120, 0, 1);
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+			
+			.nome_produto #nome_produto:active{
+				color:rgba(0, 120, 0, 1);
+			}
+		
+		.nome_produto #valor_produto{
+			margin-top:15px;
+			position:relative;
+			cursor:default;
+			font-size:1em;
+			color:rgba(0, 130, 0, 1);
+		}
+		
+		.nome_produto #id_produto{
+			color:#F47014;
+		}						
+	
+	.qtd_produto{
+		width:12%;
+		border:1px solid #161616;
+		border-top:none;
+		border-left:none;
+	}
+	
+		.input_qtd_produto{
+			width:50%;
+			height:2em;
+			margin-bottom:50px;
+		}
+		
+		.qtd_produto #remove{
+			color:rgba(220, 0, 0, 1);
+			font-weight:lighter;
+			font-family:arial;
+			font-size:1em;
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			.qtd_produto #remove:hover{
+				color:rgba(255, 0, 0, 1);
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+			.atualizar_carrinho{
+				cursor:pointer;
+				border-radius:50%;
+				padding:6px 6px;
+				vertical-align:-3px;
+				background-color:rgba(0, 160, 0, 1);
+				text-align:center;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+				.atualizar_carrinho:hover{
+					background-color:rgba(160, 0, 0, 1);
+					transition-duration:0.3s;
+					-webkit-transition-duration:0.3s;
+					-moz-transition-duration:0.3s;
+				}
+				.atualizar_carrinho:active{
+					background-color:#F47014;
+				}
+		
+	.valor_total_produto{
+		width:18%;
+		border:1px solid #161616;
+		border-top:none;
+		border-left:none;
+		cursor:default;
+	}
+
+	
+#rodape{
+	margin:0 1% 50px 1%;
+	width:98%;
+}
+	#rodape a, #rodape button{
+		display:block;		
+		margin:5px 0;
+	}
+	
+#total{
+	text-align:center;
+	position:absolute;
+	right:1%;
+	background-color:rgba(210, 210, 210, 1);
+	border:1px solid #161616;
+	border-top:none;
+	line-height:40px;
+	font-family:arial;
+	font-weight:lighter;
+	font-size:1.2em;
+	color:rgba(0, 130, 0, 1);
+	padding:5px 0;
+	cursor:default;
+	width:17.5%;
+}
+	#total b{
+		font-weight:bold;
+	}
+
+.botao_acao{
+	width:230px;
+	text-align:center;
+	font-family:arial;
+	font-size:20px;
+	color:#e1e1e1;
+	padding:13.5px 0;
+}
+	.icone_rodape{
+		
+		vertical-align:-2px;
+	}
+	
+#continuar_comprando{
+	background-color:rgba(244, 112, 20, 1);
+}
+	
+#finalizar_compra{
+	cursor:pointer;
+	background-color:rgba(0, 120, 0, 1);
+}
+
+#voltar{
+	background-color:rgba(170, 0, 0, 1);
+}

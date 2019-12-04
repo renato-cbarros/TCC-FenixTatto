@@ -1,0 +1,107 @@
+* {
+	font-family:"Trebuchet MS","Lucida Grande",Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+}
+
+body {
+	height:100%;
+	margin:0;
+	margin-top:20px;
+	width:100%;
+}
+
+div#wrapper {
+	margin-left:1em;
+	position:relative;
+	width:450px;
+	z-index:0;
+}
+
+.formMain .select {
+	text-transform:uppercase;
+	width:99%;
+	border:1px solid #B6B6B6;
+	display:block;
+}
+
+.formSearch fieldset {
+	border:1px solid #CCCCCC;
+	margin:0;
+	padding:0 10px;
+}
+
+.formMain label {
+	display:block;
+	float:left;
+	margin-right:4px;
+	padding-bottom:5px !important;
+}
+
+.formMain legend {
+	color:#1E398D;
+	font-family:"Legacy Sans ITC TT Bold","Trebuchet MS","Lucida Grande",Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-size:1.5em;
+	padding:10px 5px;
+}
+
+.formMain .button {
+	background:#3f3f3f;
+	border:1px solid #CCCCCC;
+	color:white;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing:1px;
+	margin:10px 0 0;
+	overflow:visible;
+	text-transform:uppercase;
+	width:100%;
+	padding:0.2em 0.3em;
+}
+
+.formMain .inline {
+	margin:15px 0 0 !important;
+}
+
+.formMain .text, .formMain .select, .formMain .textarea, .formMain .password {
+	border:1px solid #B6B6B6;
+	display:block;
+	text-transform:uppercase;
+}
+
+.formMain fieldset span.nameField {
+	color:black;
+	text-transform:uppercase;
+}
+
+h3 {
+	border-bottom:1px solid #F58220;
+	margin:0;
+	padding:0;
+}
+
+h3 span {
+	-x-system-font:none;
+	color:#1E398D;
+	font-family:"Legacy Sans ITC TT Bold","Trebuchet MS","Lucida Grande",Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+}
+
+#value {
+	-x-system-font:none;
+	color:#9B0000;
+	font-family:"Legacy Sans ITC TT Bold","Trebuchet MS","Lucida Grande",Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+}

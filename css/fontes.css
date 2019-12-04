@@ -1,0 +1,28 @@
+@font-face {
+    font-family: serval;
+    src: url(../font/Serval.ttf);
+}
+@font-face{
+	font-family: socialshapes;
+	src: url(../font/social_shapes.ttf);
+}
+@font-face{
+	font-family: heydings_icons;
+	src: url(../font/heydings_icons.ttf);
+}
+@font-face{
+	font-family: SourceCodeProExtraLight;
+	src: url(../font/SourceCodePro-ExtraLight.otf);
+}
+@font-face{
+	font-family: eyes;
+	src: url(../font/eyes.ttf);
+}
+@font-face{
+	font-family: chileanbugs;
+	src: url(../font/chileanbugs.otf);
+}
+@font-face{
+	font-family:school;
+	src: url(../font/school.ttf);
+}

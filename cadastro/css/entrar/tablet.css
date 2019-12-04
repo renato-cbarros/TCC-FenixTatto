@@ -1,0 +1,165 @@
+ *, *:before, *:after{	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:rgba(225, 225, 225, 1);
+	color:#161616;
+	width:100%;
+	font-family:arial;
+}
+
+a, li, ul{
+	list-style:none;
+	text-decoration:none;
+	color:black;
+}
+
+/*	=========================	*/
+
+#login{
+	background-color:rgba(210, 210, 210, 1);
+	border-radius:7px;
+	margin-top:20px;
+	margin-left:5%;
+	padding:20px 25px;
+	width:80%;
+	height:300px;
+}
+
+	#login legend{
+		font-family:verdana;
+		font-weight:bold;
+		font-size:1.3em;
+		color:#f47014;
+		margin-bottom:30px;
+	}
+	
+	#login .informacoes{
+		font-family:arial;
+		font-weight:ligther;
+		font-size:1em;
+	}
+	
+	#login input{
+		margin-bottom:15px;
+		width:100%;
+		line-height:2em;
+	}
+	
+	#login #mostra_senha, #login #esconde_senha{
+		float:right;
+		font-size:0.93em;
+		font-weight:lighter;
+		font-family:arial;
+		opacity:0.7;
+		color:#161616;
+		line-height:1em;
+		cursor:pointer;
+		display:inline;
+		transition-duration:0.2s;
+		-webkit-transition-duration:0.2s;
+		-moz-transition-duration:0.2s;
+	}
+	
+	#login #esconde_senha{
+		font-size:0.94em;
+		display:none;
+		color:rgba(220, 10, 10, 1);
+	}
+	
+	#esqueci_senha{
+		font-size:0.7em;
+		font-family:arial;
+		margin-top:-10px;
+		margin-bottom:-15px;
+		color:#161616;
+		line-height:1em;
+		cursor:pointer;
+		position:relative;
+		width:116px;
+		color:rgba(10, 10, 140, 1);
+	}
+
+	#login .acao{
+			font-family:arial;
+			font-size:1.4em;
+			font-weight:bold;
+			color:rgba(255, 255, 255, 0.8);
+			padding:5px 0;
+			background-color:#161616;
+			cursor:pointer;
+			margin-top:15px;
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			#login .acao:hover, #login .acao:active{
+				color:white;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+
+
+
+#cadastrar{
+	background-color:rgba(210, 210, 210, 1);
+	border-radius:7px;
+	margin-top:30px;
+	margin-left:5%;
+	padding:20px 25px;
+	width:80%;
+	height:300px;
+}
+	#cadastrar legend{
+		font-family:verdana;
+		font-weight:bold;
+		font-size:1.3em;
+		color:#f47014;
+		margin-bottom:30px;
+	}
+		
+	#cadastrar .informacoes{
+		font-family:arial;
+		font-weight:ligther;
+		font-size:1em;
+	}
+	
+	#cadastrar input{
+		margin-bottom:15px;
+		width:100%;
+		line-height:2em;
+	}
+
+	#cadastrar .acao{
+			font-family:arial;
+			font-size:1.4em;
+			font-weight:bold;
+			color:rgba(255, 255, 255, 0.8);
+			padding:5px 0;
+			background-color:#161616;
+			cursor:pointer;
+			margin-top:15px;
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			#cadastrar .acao:hover, #cadastrar .acao:active{
+				color:white;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+
+
+
+

@@ -1,0 +1,30 @@
+.a-confirmar{
+	text-decoration:none;
+	list-style:none;
+	background-color:#303030;
+	color:white;
+	padding:0.8em 2em;
+	font-family:verdana;
+	-webkit-transition:0.6s;
+	-moz-transition:0.6s;
+	transition:0.6s;
+}
+
+.a-confirmar:hover{
+	background-color:#1c1c1c;
+	-webkit-transition:0.6s;
+	-moz-transition:0.6s;
+	transition:0.6s;
+}
+
+.confirmar{
+	background-color:rgba(97, 97, 97, 0.8);
+	border-radius:8px;
+	box-shadow:3 3 15 #000;
+	padding:2em;
+}
+
+.img-confirma{
+	width:100px;
+	height:100px;
+}

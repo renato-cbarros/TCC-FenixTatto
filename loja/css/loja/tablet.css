@@ -1,0 +1,140 @@
+*, *:before, *:after{	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	height:100%;
+	width:100%;	
+	color:#161616;
+	background-color:rgba(225, 225, 225, 1);
+}
+
+a, li, ul{
+	list-style:none;
+	text-decoration:none;
+	color:white;
+}
+
+.interior{
+	padding:0 3% 2% 3%;
+	width:94%;
+	height:auto;
+}
+
+							/*	FIM DA FORMATAÇÃO*/
+
+									
+							/* 	C	O	N	T	E	U	D	O	*/
+#exterior{
+	width:99%;
+	margin-top:100px;
+}
+	
+	
+							/*	Propagandas	*/
+.propagandas{
+	height:170px;
+	width:95%;
+	margin:0 2.5%;
+}
+	
+	
+					/*		PRODUTOS		*/
+#filtrar{
+	margin:20px 0.5%;
+	padding:5px 0;
+	width:99%;
+	border:1px solid #161616;
+	font-family:verdana;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#161616;
+}
+	#filtrar a{
+		font-family:verdana;
+		font-size:0.9em;
+		font-weight:bold;
+		padding:0 7px;
+		color:#161616;
+		transition-duration:0.35s;
+		-webkit-transition-duration:0.35s;
+		-moz-transition-duration:0.35s;
+	}
+		@media only screen and (max-width:850px){
+			#filtrar a{font-size:0.85em; padding:0; font-weight:lighter;}
+			#filtrar {font-weight:lighter;}
+		}
+		
+		#filtrar a:hover{
+			color:#f47014;
+			cursor:pointer;
+			transition-duration:0.35s;
+			-webkit-transition-duration:0.35s;
+			-moz-transition-duration:0.35s;
+		}
+	
+.imagens{		
+	display:inline-block;
+	width:32.5%;
+	height:260px;
+}				
+	.imagens img{
+		width:80%;
+		height:160px;
+		cursor:pointer;	
+		margin:1%;		
+		padding:0;
+		border:1px solid rgba(0, 0, 0, 0);
+		transition-duration:0.5s;
+		-webkit-transition-duration: 0.5s; 
+		-moz-transition-duration:0.5s;		
+	}
+		@media only screen and (max-width:600px){
+			.imagens img{height:150px;}
+			.imagens{height:250px;}
+		}
+		@media only screen and (max-width:540px){
+			.imagens img{height:140px;}
+			.imagens{height:240px;}
+		}
+		
+		.imagens img:hover{
+			border:1px solid #161616;
+			-webkit-transition-duration: 0.5s; 
+			-moz-transition-duration:0.5s;
+			transition-duration: 0.5s;
+		}
+		
+	.info_produto{
+		margin-bottom:10px;
+	}
+
+.texto_imagem_nome{
+	font-family:arial;
+	font-size:0.9em;
+	color:#161616;
+	font-weight:lighter;
+	cursor:pointer;
+}
+	@media only screen and (max-width:600px){
+		.texto_imagem_nome{font-size:0.8em;}
+	}
+
+.texto_imagem_preco{	
+	font-family:arial;
+	font-size:1.2em;
+	color:rgba(244, 112, 20, 1);
+	font-weight:bold;
+	cursor:pointer;
+}
+	@media only screen and (max-width:650px){
+		.texto_imagem_preco{font-size:1em;}
+	}

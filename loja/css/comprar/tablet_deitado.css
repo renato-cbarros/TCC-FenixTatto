@@ -1,0 +1,188 @@
+ *, *:before, *:after{	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:rgba(225, 225, 225, 1);
+	color:black;
+	height:100%;
+	width:100%;
+	font-family:arial;
+}
+
+a, li, ul{
+	list-style:none;
+	text-decoration:none;
+	color:black;
+}		
+			
+#nome_produto{
+	width:94%;
+	background:#3f3f3f;
+	border-top:2px solid #161616;
+	border-bottom:2px solid #161616;
+	padding:2% 3%;
+	margin-top:20px;
+}
+	#nome_produto p{
+		color:white;
+		font-family:arial;
+		font-weight:bold;
+		font-size:20px;
+	}
+	
+	
+	
+				/*	PRODUTO	*/
+
+#produto{
+	padding:20px 3%;
+	width:50%;
+}
+	#imagem{
+		width:260px;
+		cursor:crosshair;
+		opacity:0.8;
+		border:6px solid #3f3f3f;
+		border-bottom-left-radius:8px;
+		border-bottom-right-radius:8px;
+		transition-duration:0.2s;
+		-webkit-transition-duration:0.2s;
+		-moz-transition-duration:0.2s;
+	}
+		#imagem:hover{
+			opacity:1;
+			border:6px solid #161616;
+			transition-duration:0.2s;
+			-webkit-transition-duration:0.2s;
+			-moz-transition-duration:0.2s;
+		}
+
+#info_produto{
+	margin-left:360px;
+	top:0;
+	margin-top:190px;
+	position:absolute;
+	padding:5%;
+}
+
+	#info_nome{
+		font-family:arial;
+		font-weight:bold;
+		font-size:1.7em;
+		color:rgba(244, 112, 20, 1);
+		margin-bottom:1em;
+	}
+	
+	#info_valor{
+		font-family:arial;
+		font-weight:bold;
+		font-size:1.4em;
+		color:rgba(20, 150, 20, 1);
+		margin-bottom:0.5em;
+	}	
+	
+	#info_frete{
+		font-family:arial;
+		font-weight:bold;
+		font-size:1.2em;
+		color:rgba(20, 150, 20, 1);
+		margin-bottom:2em
+	}
+	
+	#botao-comprar{
+			font-family:arial;
+			font-size:1.4em;
+			font-weight:bold;
+			color:rgba(255, 255, 255, 0.8);
+			padding:0.5em 1em;
+			background-color:#161616;
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			#botao-comprar:hover, #botao-comprar:active{
+				color:white;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+	
+	#info_desc{
+		font-family:arial;
+		font-weight:lighter;
+		font-size:1.2em;
+		color:#161616;
+		margin-bottom:1em;
+		margin-top:2em;
+	}
+
+
+		/*	Rodapé	*/
+#comprar{
+	width:100%;
+	background-color:#3f3f3f;
+	position:absolute;
+	bottom:10px;
+	z-index:9999;	
+}
+
+	#opcoes{
+		padding:0.4em 0;
+		background-color: #3f3f3f;
+	}
+			
+	#texto_sugerimos{
+		color:rgba(224, 112, 20, 1);
+		font-family:arial;
+		font-size:0.85em;
+		margin:0.5em 0 1px 1.5%;
+		text-transform:uppercase;
+	}
+	
+	.opcoes{
+		display:inline-block;
+		width:24%;
+		background-color:rgba(50, 50, 50, 1);
+	}
+		.opcoes img{
+			width:50%;
+			height:110px; 
+			cursor:pointer;
+			opacity:0.8;
+			margin:1%;			
+			transition-duration:0.2s;
+			-webkit-transition-duration:0.2s;
+			-moz-transition-duration:0.2s;
+		}
+			@media only screen and (max-width:900px){
+				.opcoes img{width:55%;}
+			}
+			@media only screen and (max-width:830px){
+				.opcoes img{width:60%;}
+			}
+			.opcoes:hover, .opcoes:active{
+				opacity:1;
+				background-color:#3f3f3f;
+				transition-duration:0.2s;
+				-webkit-transition-duration:0.2s;
+				-moz-transition-duration:0.2s;
+			}
+			
+		.opcoes p{
+			color:rgba(255, 255, 255, 0.8);
+			font-family:arial;
+			font-weight:lighter;
+			font-size:0.85em;
+			text-transform:uppercase;
+			cursor:default;
+		}
+			

@@ -1,0 +1,55 @@
+html, body{
+	margin:0 2%;
+	padding:0;
+	border:0;
+	background-color:#3f3f3f;
+	height:100%;
+	width:96%;	
+	color:white;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+		
+	label{
+		font-family:arial;
+		font-size:1em;
+		font-weight:bold;
+		color:white;
+	}
+	
+	.input{
+		display:block;
+		margin-bottom:0.7em;
+		font-family:SourceCodeProExtraLight;
+		font-size:0.85em;	
+		width:40%;
+		min-width:200px;
+	}
+	
+#alterar-dados{
+	color:rgba(0, 150, 255, 1);	
+	font-family:arial;
+	font-weight:bold;
+	font-size:0.85em;		
+}
+	#alterar-dados:hover{
+		color:rgba(50, 200, 50, 1);		
+	}
+		
+#gerar_boleto{
+	font-family:arial;
+	font-weight:bold;
+	font-size:1.6em;
+	cursor:pointer;
+	color:rgba(210, 210, 210, 1);
+	background-color:rgba(120, 10, 10, 1);
+	box-shadow:1px 1px 1px rgba(210, 210, 210, 1);
+	transition-duration:0.15s;
+	-webkit-transition-duration:0.15s;
+	-moz-transition-duration:0.15s;
+}
+	#gerar_boleto:hover{
+		color:white;
+	}

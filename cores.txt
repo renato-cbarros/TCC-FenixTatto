@@ -1,0 +1,9 @@
+Amarelo do Logo: color: rgba(181, 164, 28, 1);
+Laranja : #f47014
+
+
+Observação:
+Caso você precise fazer uma verificação de senhas, por exemplo, deverá usar este código: if($senhadigitada == md5($senhaguardada)) echo "Login efetuado com sucesso"; 
+
+
+Read more: http://www.linhadecodigo.com.br/artigo/1749/tutorial-criptografando-senhas-em-php.aspx#ixzz4DrhUUKmt

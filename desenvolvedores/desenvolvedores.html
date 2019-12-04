@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Desenvolvedores</title>
+		<link rel="stylesheet" type="text/css" href="desktop.css" media="all and (min-width:722px)"/>
+		<link rel="stylesheet" type="text/css" href="mobile.css" media="all and (max-width:721px)"/>
+		<link rel="stylesheet" type="text/css" href="../css/fontes.css"/>
+		<script type="text/javascript" src="../js/jquery-ajax.js"></script>	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+	</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#nome-felipe").click(function(){
+		$("#contato-felipe").css({"opacity":"1", "cursor":"text"});
+		$("#contato-matheus").css({"opacity":"0", "cursor":"default"});
+		$("#contato-michael").css({"opacity":"0", "cursor":"default"});
+		$("#contato-otavio").css({"opacity":"0", "cursor":"default"});
+		$("#contato-renato").css({"opacity":"0", "cursor":"default"});
+	});
+	$("#nome-matheus").click(function(){
+		$("#contato-matheus").css({"opacity":"1", "cursor":"text"});
+		$("#contato-felipe").css({"opacity":"0", "cursor":"default"});
+		$("#contato-michael").css({"opacity":"0", "cursor":"default"});
+		$("#contato-otavio").css({"opacity":"0", "cursor":"default"});
+		$("#contato-renato").css({"opacity":"0", "cursor":"default"});
+	});
+	$("#nome-michael").click(function(){
+		$("#contato-michael").css({"opacity":"1", "cursor":"text"});
+		$("#contato-felipe").css({"opacity":"0", "cursor":"default"});
+		$("#contato-matheus").css({"opacity":"0", "cursor":"default"});
+		$("#contato-otavio").css({"opacity":"0", "cursor":"default"});
+		$("#contato-renato").css({"opacity":"0", "cursor":"default"});
+	});
+	$("#nome-otavio").click(function(){
+		$("#contato-otavio").css({"opacity":"1", "cursor":"text"});
+		$("#contato-felipe").css({"opacity":"0", "cursor":"default"});
+		$("#contato-matheus").css({"opacity":"0", "cursor":"default"});
+		$("#contato-michael").css({"opacity":"0", "cursor":"default"});
+		$("#contato-renato").css({"opacity":"0", "cursor":"default"});
+	});
+	$("#nome-renato").click(function(){
+		$("#contato-renato").css({"opacity":"1", "cursor":"text"});
+		$("#contato-felipe").css({"opacity":"0", "cursor":"default"});
+		$("#contato-matheus").css({"opacity":"0", "cursor":"default"});
+		$("#contato-michael").css({"opacity":"0", "cursor":"default"});
+		$("#contato-otavio").css({"opacity":"0", "cursor":"default"});
+	});
+});
+</script>	
+
+	<div id="nomes">
+		<p id="nome-felipe">Felipe Santos de Melo</p>
+		<p id="nome-matheus">Matheus Batista Pimentel</p>
+		<p id="nome-michael">Michael Moreira Silva</p>
+		<p id="nome-otavio">Otávio Silva Hoffmann </p>
+		<p id="nome-renato">Renato Cursino Barros</p>
+	</div>
+	
+	<div id="contato">
+		<div class="contatos" id="felipe">
+			<p id="contato-felipe"> felipesantodemelo@live.com </p>
+		</div>
+		
+		<div class="contatos" id="matheus"> 
+			<p id="contato-matheus"> matheeusbatista@outlook.com </p>
+		</div>
+		
+		<div class="contatos" id="michael"> 
+			<p id="contato-michael"> michael_moreira@rocketmail.com </p>
+		</div>
+		
+		<div class="contatos" id="otavio"> 
+			<p id="contato-otavio"> otavio.hoffmann@etec.sp.gov.br </p>
+		</div>
+		
+		<div class="contatos" id="renato"> 
+			<p id="contato-renato"> renatobarros123@outlook.com </p>
+		</div>
+	</div>
+	
+</body>
+</html>

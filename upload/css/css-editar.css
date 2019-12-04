@@ -1,0 +1,96 @@
+.img-editar{
+	width:100px;
+	height:100px;
+	margin:0 10%;
+}
+
+#altera_produto{
+	background-color:#303030;
+	padding:20px 0;
+}
+
+legend-editar{
+	font-family:verdana;
+	font-weight:bold;
+	font-size:1.3em;
+	color:#f47014;
+	margin-bottom:50px;
+	margin-left:10%;
+}
+	.informacoes-editar{
+		color:#e1e1e1;
+		font-family:arial;
+		font-weight:bold;
+		font-size:1em;
+		margin-left:10%;
+	}
+	
+	.input-editar{
+		font-family:arial;
+		width:80%;
+		margin:0 10% 10px 10%;
+		line-height:2em;
+	}
+	
+	#quantidade-editar{
+		width:50px;
+	}
+	
+	#valor-editar{
+		width:100px;
+		
+	}
+	
+	#id{
+		width:100px;
+	}
+	
+	.botao-select{
+		margin-left:10%;
+	}
+		.botao-select option{
+			
+		}
+	
+	.acao{
+		font-family:arial;
+		font-size:1.4em;
+		font-weight:bold;
+		color:rgba(255, 255, 255, 0.8);
+		width:150px;
+		background-color:#161616;
+		cursor:pointer;
+		margin-top:15px;
+		transition-duration:0.3s;
+		-webkit-transition-duration:0.3s;
+		-moz-transition-duration:0.3s;
+	}
+		.acao:hover, .acao:active{
+			color:white;
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+				
+	.voltar{
+		padding:10px 45px;
+		font-family:arial;
+		font-size:1.4em;
+		font-weight:bold;
+		color:rgba(255, 255, 255, 0.8);
+		background-color:#161616;
+		cursor:pointer;
+		margin-top:15px;
+		transition-duration:0.3s;
+		-webkit-transition-duration:0.3s;
+		-moz-transition-duration:0.3s;
+	}
+		.voltar:hover, .voltar:active{
+			color:white;
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+		
+		
+	

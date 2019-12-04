@@ -1,0 +1,114 @@
+*, *:before, *:after{	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-moz-transition:0.5s;
+	-webkit-transition:0.5s;
+	transition:0.5s;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	height:100%;
+	width:100%;	
+	color:white;
+	-moz-transition:0.5s;
+	-webkit-transition:0.5s;
+	transition:0.5s;
+}
+
+label{
+		width:40px;
+		display: inline-block;
+	}
+	.input-cadastro {
+		width:215px;
+	}
+	.input-cadastro-sexo {
+		display:inline-block;
+	}
+
+	.texto-cadastro{						
+		color: rgba(255, 255, 255, 0.7);
+		font-size: 0.8em;
+		line-height: 1.75;
+		padding: 0.5em 0;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	
+	legend{						
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 1.1em;
+		line-height: 1.75;
+		padding: 0 0;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	
+	.texto-sexos{
+		color: rgba(255, 255, 255, 0.7);
+		font-size: 0.7em;
+		line-height: 1.75;
+		padding: 0.5em 0;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		outline: 0;
+		display:inline;
+		margin-left:48px;
+	}											
+						
+.hint {
+	background-color:rgba(58, 58, 58, 0.7);
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 0.7em;
+	font-family:verdana;
+	padding: 0.6em 0.6em;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	outline: 0;
+}
+
+.hint {	
+	display: none;
+}
+input:focus + .hint{
+	display: inline-block;
+}
+
+.botao-acao {
+	border: 1px solid rgba(255, 255, 255, 0.45);
+	color:rgba(255, 255, 255, 0.45);
+	background-color: rgba(0, 0, 0, 0);
+	position:relative;
+	border-radius:2px;
+	font-size: 1em;
+	padding: 0.5em 0;
+	margin-left:44px;
+	width:215px;
+}
+
+.botao-acao:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-color: rgba(255, 255, 255, 0.45);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+	color: rgba(255, 255, 255, 0.45);
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 1);
+	cursor:pointer;
+}
+
+.botao-acao:active {
+	background-color: linear-gradient(top, #E4E8F7, #DADDDA);
+	border-color: rgba(255, 255, 255, 0.65);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.65);
+}	

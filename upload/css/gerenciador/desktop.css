@@ -1,0 +1,312 @@
+*, *:before, *:after{	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	height:100%;
+	width:100%;
+	color:#161616;
+}
+
+a, li, ul{
+	list-style:none;
+	text-decoration:none;
+}
+
+#background{
+	width:100%;
+	min-width:1024px;
+	height:100%;
+	opacity:0.6;
+	top:0px;
+	position:fixed;
+	background-attachment:fixed;
+	z-index:-1;	
+
+}
+
+#header_mobile{
+	display:none;
+}
+
+#header_desktop{
+	width:20%;
+	height:100%;
+	text-align:center;
+	background-color:rgba(63, 63, 63, 1);
+	position:fixed;
+	left:0;
+	z-index:9999;
+}
+	#header_desktop p{
+		font-family:serval;
+		font-size:3em;
+		color:rgba(181, 164, 28, 1);
+		cursor:default;
+	}
+	
+	#header_desktop ul{
+		margin-top:20%;
+	}
+		#header_desktop li{
+			font-family:verdana;
+			font-weight:bold;
+			font-size:1.2em;
+			color:#F47014;
+			line-height:500%;
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			#header_desktop li:hover{
+				color:#e1e1e1;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+#exterior{
+	width:80%;
+	height:100%;
+	margin-left:20%;
+	padding:0;
+}
+	
+	#upload_galeria{
+		background-color:rgba(210, 210, 210, 1);
+		border-radius:7px;
+		margin:20px auto;
+		padding:20px 25px;
+		width:60%;
+	}
+		
+		#upload_galeria option, #upload_galeria select{
+			font-family:arial;
+			font-weight:ligther;
+			font-size:1em;
+			color:#161616;
+		}
+		
+		#upload_galeria input{
+			margin-bottom:15px;
+			width:100%;
+			line-height:2em;
+			font-family:arial;
+		}
+
+		#upload_galeria .acao{
+				font-family:arial;
+				font-size:1.4em;
+				font-weight:bold;
+				color:rgba(255, 255, 255, 0.8);
+				padding:5px 0;
+				background-color:#161616;
+				cursor:pointer;
+				margin-top:15px;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+				#upload_galeria .acao:hover, #upload_galeria .acao:active{
+					color:white;
+					transition-duration:0.3s;
+					-webkit-transition-duration:0.3s;
+					-moz-transition-duration:0.3s;
+				}
+
+
+			
+	#upload_loja{
+			background-color:rgba(210, 210, 210, 1);
+			border-radius:7px;
+			margin:0 auto;
+			margin-top:30px;
+			padding:20px 25px;
+			width:60%;
+		}
+
+		legend{
+			font-family:verdana;
+			font-weight:bold;
+			font-size:1.3em;
+			color:#f47014;
+			margin-bottom:30px;
+		}
+		
+		#upload_loja .informacoes{
+			font-family:arial;
+			font-weight:ligther;
+			font-size:1em;
+		}
+		
+		#upload_loja input{
+			margin-bottom:15px;
+			width:100%;
+			line-height:2em;
+			font-family:arial;
+		}
+
+		#upload_loja .acao{
+				font-family:arial;
+				font-size:1.4em;
+				font-weight:bold;
+				color:rgba(255, 255, 255, 0.8);
+				padding:5px 0;
+				background-color:#161616;
+				cursor:pointer;
+				margin-top:15px;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+				#upload_loja .acao:hover, #upload_loja .acao:active{
+					color:white;
+					transition-duration:0.3s;
+					-webkit-transition-duration:0.3s;
+					-moz-transition-duration:0.3s;
+				}
+
+
+
+	#galeria, #loja{
+		margin-top:100px;
+	}
+	
+		.imagem{
+			width:170px;
+			height:170px;	
+			background-color:rgba(0, 0, 0, 0);
+		}
+		
+		.imagem img{
+			cursor:pointer;
+			margin:0 auto 50px auto;
+			padding:0px;
+			width:170px;
+			height:170px;
+			border:1px solid rgba(0, 0, 0, 0);
+			transition-duration:0.3s;
+			-webkit-transition-duration:0.3s;
+			-moz-transition-duration:0.3s;
+		}
+			.imagem img:hover{
+				border:1px solid #F47014;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}			
+			
+			.imagem:focus img{
+				opacity:0;
+			}
+			
+			.funcao{
+				text-align:center;
+				width:53px;
+				background-color:#e1e1e1;
+				font-family:arial;
+				font-size:0.9em;
+				font-weight:bold;
+				position:absolute;
+				margin-top:172px;
+				padding:8px 0;
+				transition-duration:0.3s;
+				-webkit-transition-duration:0.3s;
+				-moz-transition-duration:0.3s;
+			}
+			
+				.editar{
+					color:rgba(0, 0, 200, 1);
+					margin-left:-58px;
+					border:1px solid rgba(0, 0, 200, 0);					
+				}
+					.editar:hover{
+						border:1px solid rgba(0, 0, 200, 1);
+						transition-duration:0.3s;
+						-webkit-transition-duration:0.3s;
+						-moz-transition-duration:0.3s;
+					}
+	
+				.debug{
+					color:rgba(0, 130, 0, 1);
+					margin-left:-115.5px;
+					border:1px solid rgba(0, 130, 0, 0);
+				}
+					.debug:hover{
+						border:1px solid rgba(0, 130, 0, 1);
+						transition-duration:0.3s;
+						-webkit-transition-duration:0.3s;
+						-moz-transition-duration:0.3s;
+					}
+					
+				.excluir{
+					color:rgba(200, 0, 0, 1);
+					margin-left:-173px;			
+					border:1px solid rgba(200, 0, 0, 0);
+				}
+					.excluir:hover{
+						border:1px solid rgba(200, 0, 0, 1);
+						transition-duration:0.3s;
+						-webkit-transition-duration:0.3s;
+						-moz-transition-duration:0.3s;
+					}
+				
+			.info{
+				display:inline-block;
+				width:150px;
+				height:150px;
+				position:absolute;
+				z-index:-1;
+				padding:5px;
+				background-color:#e1e1e1;
+				margin-left:-170px;
+				margin-top:5px;
+				margin-bottom:50px;
+			}			
+				
+				.info .nome_produto{
+					font-family:arial;
+					font-size:0.9em;
+					font-weight:bold;
+					color:#F47014;
+					font-style: normal;
+					position:static;
+					margin-left:0;
+				}
+				
+				.info .valor_produto{
+					font-family:arial;
+					font-size:0.9em;
+					font-weight:lighter;
+					color:rgba(0, 130, 0, 1);
+					font-style: normal;
+					position:static;
+					margin-left:0;
+				}
+				
+				.info .desc_produto{
+					font-family:arial;
+					font-size:0.75em;
+					font-weight:lighter;
+					color:#161616;
+					font-style: normal;
+					position:static;
+					margin-left:0;
+				}
+				
+				.info .id_produto{
+					font-family:arial;
+					font-size:0.9em;
+					font-weight:bold;
+					color:rgba(200, 0, 0, 1);
+					font-style: normal;
+					position:static;
+					margin-left:0;
+				}													
